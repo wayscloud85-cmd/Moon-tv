@@ -20,7 +20,7 @@ const channelsData = [
   { category:"News", name:"Lahore News", url:"https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8", logo:"https://i.imgur.com/bQfQeEA.jpeg" },
   { category:"News", name:"PTV News", url:"https://www.youtube.com/live/RJFJprClvlk?si=2ubPnVsZqsr63DXj", logo:"https://i.imgur.com/Fpn8VU7.png" },
   { category:"News", name:"ARY News", url:"https://cdn02khi.tamashaweb.com:8087/jazzauth/ARYnews-abr/live/vsat-arynews-L/chunks.m3u8", logo:"https://i.postimg.cc/K85QNzjF/arynews.png" },
-  { category:"News", name:"Samaa", url:"https://tapmadlive.akamaized.net/tapmadold/saamanews.smil/chunklist_w496102296_b1248000_sIENG.m3u8", logo:"https://i.imgur.com/r3U4A1P.png" },
+  { category:"News", name:"Samaa", url:"https://cdn5.mjunoon.tv:8087/web/Madni-121/live/121H/chunks.m3u8", logo:"https://i.imgur.com/r3U4A1P.png" },
   { category:"News", name:"City 42", url:"https://tapmadlive.akamaized.net/tapmadold/city42.smil/chunklist_w1939664964_b748000_slEng.m3u8", logo:"https://i.imgur.com/vcSFetk.png" },
   { category:"News", name:"92 News", url:"https://tapmadlive.akamaized.net/tapmadold/92news.smil/chunklist_w261649448_b1248000_slENG.m3u8", logo:"https://i.imgur.com/gp1Ao4s.jpeg" },
 
