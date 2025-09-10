@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPTV Player</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+<div class="topbar">
+  <button id="sidebar-toggle">⋮</button>
+</div>
+
+<div id="sidebar">
+  <button class="close-btn" id="sidebar-close">Close</button>
+  <section id="privacy-policy">
+    <h2>Privacy Policy</h2>
+    <p>Your privacy is important. No personal data is collected. Anonymous analytics may be used.</p>
+  </section>
+  <section id="disclaimer">
+    <h2>Disclaimer</h2>
+    <p>This IPTV Player streams public channels. Use at your own risk and follow local laws.</p>
+  </section>
+</div>
+
+<main>
+  <section id="channels-view">
+    <div id="channels-root"></div>
+  </section>
+  <section id="player-view">
+    <button id="back-btn">← Back to Channels</button>
+    <div id="player-container">
+      <video id="video" controls autoplay></video>
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
