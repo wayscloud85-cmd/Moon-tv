@@ -23,12 +23,16 @@ const channelsData = [
   { category:"News", name:"Samaa", url:"https://cdn5.mjunoon.tv:8087/web/SAMAA-173/live/173H/chunks.m3u8", logo:"https://i.imgur.com/r3U4A1P.png" },
   { category:"News", name:"City 42", url:"https://tapmadlive.akamaized.net/tapmadold/city42.smil/chunklist_w1939664964_b748000_slEng.m3u8", logo:"https://i.imgur.com/vcSFetk.png" },
   { category:"News", name:"92 News", url:"https://tapmadlive.akamaized.net/tapmadold/92news.smil/chunklist_w261649448_b1248000_slENG.m3u8", logo:"https://i.imgur.com/gp1Ao4s.jpeg" },
+  { category:"News", name:"KTN News", url:"https://cdn5.mjunoon.tv:8087/web/KTNNews-151/live/151M/chunks.m3u8", logo:"https://i.postimg.cc/8CWRQcZS/472-4725557-tv-channel-logos-ktn-news.jpg" },
+  { category:"News", name:"Such TV", url:"https://video.primexsports.com/suchnews/live/playlist.m3u8", logo:"https://i.imgur.com/yYMh3JJ.png" },
+  { category:"News", name:"GNN", url:"https://cdn5.mjunoon.tv:8087/web/gnnnews-181/live/181M/chunks.m3u8", logo:"https://i.imgur.com/VXVnXXi.png" },
 
   // Entertainment
   { category:"Entertainment", name:"Hum Sitaray", url:"https://cdn05khi.tamashaweb.com:8087/jazzauth/HumSitaray-abr/live/vsat-107L/chunks.m3u8", logo:"https://i.postimg.cc/YqTq1Z00/Hum-Sitaray-Logo.png" },
   { category:"Entertainment", name:"ARY Zindagi", url:"https://cdn23lhr.tamashaweb.com:8087/jazzauth/ARYzindagi-abr/live/vsat-aryzindagi-L/chunks.m3u8", logo:"https://i.postimg.cc/RFMG0PzV/333721437245ccc832fb7b906272d47f-icon.png" },
   { category:"Entertainment", name:"Geo Kahani", url:"https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8", logo:"https://i.postimg.cc/7ZmSsPJy/geokahani.png" },
   { category:"Entertainment", name:"ARY Digital", url:"https://cdn05khi.tamashaweb.com:8087/jazzauth/ARYdigital-abr/live/vsat-ary-L/chunks.m3u8", logo:"https://i.imgur.com/TVP7g03.png" },
+  { category:"Entertainment", name:"KTN", url:"https://cdn5.mjunoon.tv:8087/web/KTN-149/live/149M/chunks.m3u8", logo:"https://i.postimg.cc/W3rGM3B3/Sindhi-TV-KTN.jpg" },
 
   // Documentary
   { category:"Documentary", name:"Discovery", url:"https://cdn12isb.tamashaweb.com:8087/jazzauth/DiscoveryHD-abr/live/178M/chunks.m3u8", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png" }
