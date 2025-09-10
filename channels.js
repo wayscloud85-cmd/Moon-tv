@@ -8,7 +8,7 @@ const channelsData = [
   { category:"Sports", name:"GTV Sports", url:"https://tvsen5.aynaott.com/Ravc7gPCZpxk/tracks-v1a1/mono.ts.m3u8", logo:"https://i.postimg.cc/0yFRKtBy/gtv-live-cricket-logo.webp" },
   { category:"Sports", name:"RTA Sports", url:"https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8", logo:"https://i.postimg.cc/6qDg2JN8/rtasport.png" },
   { category:"Sports", name:"A Sports", url:"https://stream2.aryzap.com/v1/018a8885b8951eb401a603639363/018a88860ada09831f17035d95dd/ARYBK2H264_720p.m3u8", logo:"https://i.postimg.cc/QNczJxvr/A-Sports-Logo.png" },
-  { category:"Sports", name:"Ten Sports", url:"https://tapmadlive.akamaized.net/tapmadold/tensports.smil/chunklist_w1543578491_b1248000_slENG.m3u8", logo:"https://i.postimg.cc/7YHbqhZk/250px-Ten-Sports-Logo.png" },
+  { category:"Sports", name:"Ten Sports", url:"https://tapmadlive.akamaized.net/tapmadold/tensports.smil/chunklist_w1543578491_b1248000_slENG.m3u8", logo:"https://i.postimg.cc/3RMm1GQG/ten-sports-hd-logo.webp" },
   { category:"Sports", name:"Tamasha Live", url:"https://cdn03isb-n.tamashaweb.com:8087/jazzauth/ASIACUP2025-abr/live/ASIACUP2025-promo/chunks.m3u8", logo:"https://i.postimg.cc/VLgm4F21/63c1e52872e94.jpg" },
   { category:"Sports", name:"Myco Live", url:"https://ml-pull-rtmp-pk1.myco.io/AsiaCupMain/hls/AsiaCupMain_Logo-H264-1080p.m3u8", logo:"https://i.postimg.cc/KcBjdCC7/mark.jpg" },
   { category:"Sports", name:"Eurosport", url:"https://cdn24lhr.tamashaweb.com:8087/jazzauth/Eurosport-abr/live/182M/chunks.m3u8", logo:"https://i.postimg.cc/sDGmdfs6/Eurosport-Logo.png" },
