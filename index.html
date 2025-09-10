@@ -3,41 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IPTV Player</title>
-<link rel="stylesheet" href="style.css">
+<title>Secure IPTV Player</title>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="topbar">
-  <button id="sidebar-toggle">⋮</button>
-</div>
-
-<div id="sidebar">
-  <button class="close-btn" id="sidebar-close">Close</button>
-  <section id="privacy-policy">
-    <h2>Privacy Policy</h2>
-    <p>Your privacy is important. No personal data is collected. Anonymous analytics may be used.</p>
-  </section>
-  <section id="disclaimer">
-    <h2>Disclaimer</h2>
-    <p>This IPTV Player streams public channels. Use at your own risk and follow local laws.</p>
-  </section>
-</div>
-
 <main>
-  <section id="channels-view">
+  <!-- Channels View -->
+  <div id="channels-view">
     <div id="channels-root"></div>
-  </section>
-  <section id="player-view">
+  </div>
+
+  <!-- Player View -->
+  <div id="player-view">
     <button id="back-btn">← Back to Channels</button>
     <div id="player-container">
       <video id="video" controls autoplay></video>
     </div>
-  </section>
+  </div>
 </main>
 
 <script src="channels.js"></script>
 <script src="app.js"></script>
+
+<!-- 🔒 Security Script -->
+<script>
+// Disable Right Click
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    alert('Right-click is disabled.');
+});
+
+// Block Developer Tools
+document.addEventListener('keydown', function(e) {
+    // F12
+    if (e.keyCode === 123) {
+        e.preventDefault();
+        alert('Developer tools disabled.');
+    }
+    // Ctrl+Shift+I / Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) {
+        e.preventDefault();
+        alert('Developer tools disabled.');
+    }
+    // Ctrl+U (View Source)
+    if (e.ctrlKey && e.keyCode === 85) {
+        e.preventDefault();
+        alert('View source disabled.');
+    }
+});
+
+// Disable Text Selection & Copy
+document.addEventListener('selectstart', e => e.preventDefault());
+document.addEventListener('copy', e => {
+    e.preventDefault();
+    alert('Copying is disabled.');
+});
+
+// Prevent iFrame embedding (Clickjacking protection)
+if (window.top !== window.self) {
+    window.top.location = window.self.location;
+}
+</script>
+
+<style>
+/* Prevent selecting & dragging */
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+</style>
+
 </body>
 </html>
